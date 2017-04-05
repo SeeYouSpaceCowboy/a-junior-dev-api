@@ -3,7 +3,7 @@
 #
 # Listing.create(position: , company: , street: , city: , state: , zipcode: , description: , languages: )
 
-Listing.create(position: "Frontend Javascript Developer", experience_level: "junior", full_time: true, company: "Triple Lift", street: "Flatiron", city: "New York", state: "NY" , zipcode: 10004, description: "Come work for us!", languages: "React, Redux, Angular, Javascript, SASS, CSS")
+Listing.create(position: "Frontend Javascript Developer", experience_level: "junior", full_time: true, company: "Apploi", street: "26 Broadway", city: "New York", state: "NY" , zipcode: 10004, description: "Come work for us!", languages: "React, Redux, Angular, Javascript, SASS, CSS")
 
 Listing.create(position: "Web Developer Intern", experience_level: "junior", full_time: true, company: "Pivotal Labs", street: "636 Avenue of the Americas", city: "New York", state: "NY", zipcode: 10011, description: "Come work for us!", languages: "Javascript, CSS, HTML")
 
