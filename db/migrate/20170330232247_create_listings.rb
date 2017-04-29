@@ -1,12 +1,14 @@
 class CreateListings < ActiveRecord::Migration[5.0]
   def change
     create_table :listings do |t|
-      t.boolean :open, default: true
       t.string :company
+      t.string :company_url
+      t.string :apply_url
       t.string :position
-      t.boolean :full_time, default: true
+      t.string :shift
       t.string :experience_level
-      t.string :languages
+      t.string :programming_languages
+      t.integer :compensation
       t.string :street
       t.string :city
       t.string :state

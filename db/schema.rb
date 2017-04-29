@@ -16,19 +16,21 @@ ActiveRecord::Schema.define(version: 20170330232247) do
   enable_extension "plpgsql"
 
   create_table "listings", force: :cascade do |t|
-    t.boolean  "open",             default: true
     t.string   "company"
+    t.string   "company_url"
+    t.string   "apply_url"
     t.string   "position"
-    t.boolean  "full_time",        default: true
+    t.string   "shift"
     t.string   "experience_level"
-    t.string   "languages"
+    t.string   "programming_languages"
+    t.integer  "compensation"
     t.string   "street"
     t.string   "city"
     t.string   "state"
     t.integer  "zipcode"
     t.string   "description"
-    t.datetime "created_at",                      null: false
-    t.datetime "updated_at",                      null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
   end
 
   create_table "users", force: :cascade do |t|
