@@ -1,24 +1,7 @@
-# README
+# A Junior Dev API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is Part One of a Two Part Project that has a backend and a frontend. This is the backend API for A Junio Dev developed in Rails.
 
-Things you may want to cover:
+You can find the link for Part Two in the Readme.md [here](https://github.com/SeeYouSpaceCowboy/a-junior-dev.git)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can see the live site [here](https://ajuniordev.herokuapp.com)
